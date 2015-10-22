@@ -13,8 +13,13 @@ public class Record {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    
     @NotEmpty
     private String data;
+
+    private String fullName;
+
+
 
     public String getData() {
         return data;
@@ -22,6 +27,15 @@ public class Record {
 
     public void setData(String data) {
         this.data = data;
+    }
+
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
 }
