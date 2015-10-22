@@ -20,7 +20,6 @@ public class Record {
     private String fullName;
 
 
-
     public String getData() {
         return data;
     }
