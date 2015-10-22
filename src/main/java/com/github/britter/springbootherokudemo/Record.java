@@ -17,9 +17,6 @@ public class Record {
     @NotEmpty
     private String data;
 
-    private String fullName;
-
-
     public String getData() {
         return data;
     }
@@ -29,12 +26,6 @@ public class Record {
     }
 
 
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
+    
 
 }
